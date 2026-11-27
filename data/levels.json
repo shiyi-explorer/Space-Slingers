@@ -1,0 +1,831 @@
+{
+  "levels": [
+    {
+      "id": "level-01",
+      "chapter": 1,
+      "name": "第一轨道",
+      "levelName": "第一轨道",
+      "hint": "玻璃屋一击即碎，直射即可。上缘的目标要先让弹道从星旁掠过，引力会把它压弯上去。",
+      "birds": 4,
+      "birdTypes": [
+        "normal",
+        "normal",
+        "normal",
+        "normal"
+      ],
+      "slingshot": {
+        "x": 170.0,
+        "y": 415.0
+      },
+      "cameraZoom": 0.9,
+      "cameraAnchor": {
+        "x": 520.0,
+        "y": 330.0
+      },
+      "worldSize": {
+        "x": 1500.0,
+        "y": 820.0
+      },
+      "seedValue": 101,
+      "planets": [
+        {
+          "base": "3f8fb0",
+          "ring": "0.45,0.85,1.0",
+          "field": 130.0,
+          "center": {
+            "x": 170.0,
+            "y": 470.0
+          },
+          "radius": 55.0,
+          "strength": 130.0,
+          "highlight": "7fd4e0"
+        },
+        {
+          "base": "a67c52",
+          "ring": "1.0,0.85,0.6",
+          "field": 420.0,
+          "center": {
+            "x": 760.0,
+            "y": 340.0
+          },
+          "radius": 150.0,
+          "strength": 610,
+          "highlight": "e0bb85"
+        }
+      ],
+      "pigs": [
+        {
+          "planet": 1,
+          "angle": -155,
+          "lat": 0,
+          "radius": 20,
+          "hp": 1
+        },
+        {
+          "planet": 1,
+          "angle": -104,
+          "lat": 0,
+          "radius": 20,
+          "hp": 1
+        }
+      ],
+      "blocks": [
+        {
+          "planet": 1,
+          "angle": -169,
+          "material": "glass",
+          "size": {
+            "x": 14,
+            "y": 50
+          },
+          "axis": "radial",
+          "lift": 0
+        },
+        {
+          "planet": 1,
+          "angle": -141,
+          "material": "glass",
+          "size": {
+            "x": 14,
+            "y": 50
+          },
+          "axis": "radial",
+          "lift": 0
+        },
+        {
+          "planet": 1,
+          "angle": -155,
+          "material": "glass",
+          "size": {
+            "x": 106,
+            "y": 14
+          },
+          "axis": "tangent",
+          "lift": 46.5
+        }
+      ],
+      "starThresholds": [
+        12000,
+        24000,
+        32000
+      ]
+    },
+    {
+      "id": "level-02",
+      "chapter": 2,
+      "name": "背面打击",
+      "levelName": "背面打击",
+      "hint": "大星背面藏着头盔猪：沿上缘绕行飞到它头顶。木屋护着的近侧目标需要一记结实的直射。",
+      "birds": 4,
+      "birdTypes": [
+        "normal",
+        "normal",
+        "dash",
+        "normal"
+      ],
+      "slingshot": {
+        "x": 170.0,
+        "y": 445.0
+      },
+      "cameraZoom": 0.85,
+      "cameraAnchor": {
+        "x": 540.0,
+        "y": 330.0
+      },
+      "worldSize": {
+        "x": 1550.0,
+        "y": 820.0
+      },
+      "seedValue": 202,
+      "planets": [
+        {
+          "base": "3f8fb0",
+          "ring": "0.45,0.85,1.0",
+          "field": 130.0,
+          "center": {
+            "x": 170.0,
+            "y": 500.0
+          },
+          "radius": 55.0,
+          "strength": 130.0,
+          "highlight": "7fd4e0"
+        },
+        {
+          "base": "a67c52",
+          "ring": "1.0,0.85,0.6",
+          "field": 360.0,
+          "center": {
+            "x": 760.0,
+            "y": 350.0
+          },
+          "radius": 125.0,
+          "strength": 644,
+          "highlight": "e0bb85"
+        },
+        {
+          "base": "7959a8",
+          "ring": "0.75,0.6,1.0",
+          "field": 154,
+          "center": {
+            "x": 1050.0,
+            "y": 100.0
+          },
+          "radius": 45.0,
+          "strength": 494,
+          "highlight": "b795e0"
+        }
+      ],
+      "pigs": [
+        {
+          "planet": 1,
+          "angle": -60,
+          "lat": 0,
+          "radius": 20,
+          "hp": 1
+        },
+        {
+          "planet": 2,
+          "angle": -145,
+          "lat": 50,
+          "radius": 18,
+          "hp": 2
+        }
+      ],
+      "blocks": [
+        {
+          "planet": 1,
+          "angle": -76,
+          "material": "wood",
+          "size": {
+            "x": 14,
+            "y": 50
+          },
+          "axis": "radial",
+          "lift": 0
+        },
+        {
+          "planet": 1,
+          "angle": -44,
+          "material": "wood",
+          "size": {
+            "x": 14,
+            "y": 50
+          },
+          "axis": "radial",
+          "lift": 0
+        },
+        {
+          "planet": 1,
+          "angle": -60,
+          "material": "wood",
+          "size": {
+            "x": 102,
+            "y": 14
+          },
+          "axis": "tangent",
+          "lift": 46.0
+        }
+      ],
+      "starThresholds": [
+        12000,
+        24000,
+        32000
+      ]
+    },
+    {
+      "id": "level-03",
+      "chapter": 3,
+      "name": "双星夹缝",
+      "levelName": "双星夹缝",
+      "hint": "近星的木屋先拆掉。远星两只猪挨得近：分裂鸟在夹缝里点开，一次打两个；石墙挡着的用加速鸟。",
+      "birds": 5,
+      "birdTypes": [
+        "normal",
+        "split",
+        "split",
+        "normal",
+        "dash"
+      ],
+      "slingshot": {
+        "x": 170.0,
+        "y": 405.0
+      },
+      "cameraZoom": 0.8,
+      "cameraAnchor": {
+        "x": 540.0,
+        "y": 330.0
+      },
+      "worldSize": {
+        "x": 1600.0,
+        "y": 820.0
+      },
+      "seedValue": 303,
+      "planets": [
+        {
+          "base": "3f8fb0",
+          "ring": "0.45,0.85,1.0",
+          "field": 130.0,
+          "center": {
+            "x": 170.0,
+            "y": 460.0
+          },
+          "radius": 55.0,
+          "strength": 130.0,
+          "highlight": "7fd4e0"
+        },
+        {
+          "base": "7959a8",
+          "ring": "0.75,0.6,1.0",
+          "field": 360.0,
+          "center": {
+            "x": 520.0,
+            "y": 245.0
+          },
+          "radius": 125.0,
+          "strength": 598,
+          "highlight": "b795e0"
+        },
+        {
+          "base": "a67c52",
+          "ring": "1.0,0.85,0.6",
+          "field": 350.0,
+          "center": {
+            "x": 940.0,
+            "y": 440.0
+          },
+          "radius": 120.0,
+          "strength": 621,
+          "highlight": "e0bb85"
+        }
+      ],
+      "pigs": [
+        {
+          "planet": 1,
+          "angle": -145,
+          "lat": 0,
+          "radius": 20,
+          "hp": 1
+        },
+        {
+          "planet": 2,
+          "angle": -166,
+          "lat": 0,
+          "radius": 22,
+          "hp": 2
+        },
+        {
+          "planet": 2,
+          "angle": -136,
+          "lat": 0,
+          "radius": 20,
+          "hp": 1
+        }
+      ],
+      "blocks": [
+        {
+          "planet": 1,
+          "angle": -161,
+          "material": "wood",
+          "size": {
+            "x": 14,
+            "y": 50
+          },
+          "axis": "radial",
+          "lift": 0
+        },
+        {
+          "planet": 1,
+          "angle": -129,
+          "material": "wood",
+          "size": {
+            "x": 14,
+            "y": 50
+          },
+          "axis": "radial",
+          "lift": 0
+        },
+        {
+          "planet": 1,
+          "angle": -145,
+          "material": "wood",
+          "size": {
+            "x": 102,
+            "y": 14
+          },
+          "axis": "tangent",
+          "lift": 46.0
+        },
+        {
+          "planet": 2,
+          "angle": -148,
+          "material": "stone",
+          "size": {
+            "x": 16,
+            "y": 55
+          },
+          "axis": "radial",
+          "lift": 0
+        }
+      ],
+      "starThresholds": [
+        16000,
+        32000,
+        44000
+      ]
+    },
+    {
+      "id": "level-04",
+      "chapter": 4,
+      "name": "卫星弹射",
+      "levelName": "卫星弹射",
+      "hint": "小卫星也有引力：先打它面向你的那头。再让弹道绕过大星下缘——引力会把它甩上背面。近侧木塔是加分奖励。",
+      "birds": 4,
+      "birdTypes": [
+        "normal",
+        "normal",
+        "dash",
+        "normal"
+      ],
+      "slingshot": {
+        "x": 170.0,
+        "y": 440.0
+      },
+      "cameraZoom": 0.8,
+      "cameraAnchor": {
+        "x": 560.0,
+        "y": 330.0
+      },
+      "worldSize": {
+        "x": 1600.0,
+        "y": 820.0
+      },
+      "seedValue": 404,
+      "planets": [
+        {
+          "base": "3f8fb0",
+          "ring": "0.45,0.85,1.0",
+          "field": 130.0,
+          "center": {
+            "x": 170.0,
+            "y": 470.0
+          },
+          "radius": 55.0,
+          "strength": 130.0,
+          "highlight": "7fd4e0"
+        },
+        {
+          "base": "3f8fb0",
+          "ring": "0.45,0.85,1.0",
+          "field": 165.0,
+          "center": {
+            "x": 560.0,
+            "y": 240.0
+          },
+          "radius": 40.0,
+          "strength": 520,
+          "highlight": "7fd4e0"
+        },
+        {
+          "base": "a67c52",
+          "ring": "1.0,0.85,0.6",
+          "field": 440.0,
+          "center": {
+            "x": 900.0,
+            "y": 410.0
+          },
+          "radius": 135.0,
+          "strength": 680,
+          "highlight": "e0bb85"
+        }
+      ],
+      "pigs": [
+        {
+          "planet": 1,
+          "angle": 140,
+          "lat": 0,
+          "radius": 18,
+          "hp": 1
+        },
+        {
+          "planet": 2,
+          "angle": 55,
+          "lat": 0,
+          "radius": 20,
+          "hp": 2
+        }
+      ],
+      "blocks": [
+        {
+          "planet": 2,
+          "angle": -189,
+          "material": "wood",
+          "size": {
+            "x": 14,
+            "y": 50
+          },
+          "axis": "radial",
+          "lift": 0
+        },
+        {
+          "planet": 2,
+          "angle": -161,
+          "material": "wood",
+          "size": {
+            "x": 14,
+            "y": 50
+          },
+          "axis": "radial",
+          "lift": 0
+        },
+        {
+          "planet": 2,
+          "angle": -175,
+          "material": "wood",
+          "size": {
+            "x": 104,
+            "y": 14
+          },
+          "axis": "tangent",
+          "lift": 47.0
+        }
+      ],
+      "starThresholds": [
+        12000,
+        24000,
+        32000
+      ]
+    },
+    {
+      "id": "level-05",
+      "chapter": 5,
+      "name": "石堡攻坚",
+      "levelName": "石堡攻坚",
+      "hint": "石堡正面硬：找玻璃支柱的弱点打塌它，或用加速鸟强拆。木塔上压着石板——打掉木梁支撑，让塔塌下来。",
+      "birds": 4,
+      "birdTypes": [
+        "dash",
+        "normal",
+        "dash",
+        "normal"
+      ],
+      "slingshot": {
+        "x": 170.0,
+        "y": 430.0
+      },
+      "cameraZoom": 0.8,
+      "cameraAnchor": {
+        "x": 560.0,
+        "y": 330.0
+      },
+      "worldSize": {
+        "x": 1600.0,
+        "y": 820.0
+      },
+      "seedValue": 505,
+      "planets": [
+        {
+          "base": "3f8fb0",
+          "ring": "0.45,0.85,1.0",
+          "field": 130.0,
+          "center": {
+            "x": 170.0,
+            "y": 460.0
+          },
+          "radius": 55.0,
+          "strength": 130.0,
+          "highlight": "7fd4e0"
+        },
+        {
+          "base": "a67c52",
+          "ring": "1.0,0.85,0.6",
+          "field": 400.0,
+          "center": {
+            "x": 820.0,
+            "y": 400.0
+          },
+          "radius": 140.0,
+          "strength": 630,
+          "highlight": "e0bb85"
+        }
+      ],
+      "pigs": [
+        {
+          "planet": 1,
+          "angle": -170,
+          "lat": 0,
+          "radius": 20,
+          "hp": 2
+        },
+        {
+          "planet": 1,
+          "angle": -95,
+          "lat": 0,
+          "radius": 20,
+          "hp": 1
+        }
+      ],
+      "blocks": [
+        {
+          "planet": 1,
+          "angle": -184,
+          "material": "stone",
+          "size": {
+            "x": 14,
+            "y": 50
+          },
+          "axis": "radial",
+          "lift": 0
+        },
+        {
+          "planet": 1,
+          "angle": -156,
+          "material": "glass",
+          "size": {
+            "x": 14,
+            "y": 50
+          },
+          "axis": "radial",
+          "lift": 0
+        },
+        {
+          "planet": 1,
+          "angle": -170,
+          "material": "stone",
+          "size": {
+            "x": 100,
+            "y": 14
+          },
+          "axis": "tangent",
+          "lift": 46.5
+        },
+        {
+          "planet": 1,
+          "angle": -108,
+          "material": "wood",
+          "size": {
+            "x": 14,
+            "y": 50
+          },
+          "axis": "radial",
+          "lift": 0
+        },
+        {
+          "planet": 1,
+          "angle": -82,
+          "material": "wood",
+          "size": {
+            "x": 14,
+            "y": 50
+          },
+          "axis": "radial",
+          "lift": 0
+        },
+        {
+          "planet": 1,
+          "angle": -95,
+          "material": "wood",
+          "size": {
+            "x": 96,
+            "y": 14
+          },
+          "axis": "tangent",
+          "lift": 47.5
+        },
+        {
+          "planet": 1,
+          "angle": -95,
+          "material": "stone",
+          "size": {
+            "x": 60,
+            "y": 14
+          },
+          "axis": "tangent",
+          "lift": 61.5
+        }
+      ],
+      "starThresholds": [
+        12000,
+        26000,
+        34000
+      ]
+    },
+    {
+      "id": "level-06",
+      "chapter": 6,
+      "name": "极地风暴",
+      "levelName": "极地风暴",
+      "hint": "终章：玻璃屋送分、卫星顶上有猪、极冠藏着头盔猪、背面是木屋。绕射、弹射、分裂齐射全用上。",
+      "birds": 6,
+      "birdTypes": [
+        "split",
+        "dash",
+        "normal",
+        "split",
+        "dash",
+        "normal"
+      ],
+      "slingshot": {
+        "x": 170.0,
+        "y": 440.0
+      },
+      "cameraZoom": 0.78,
+      "cameraAnchor": {
+        "x": 580.0,
+        "y": 330.0
+      },
+      "worldSize": {
+        "x": 1650.0,
+        "y": 820.0
+      },
+      "seedValue": 606,
+      "planets": [
+        {
+          "base": "3f8fb0",
+          "ring": "0.45,0.85,1.0",
+          "field": 130.0,
+          "center": {
+            "x": 170.0,
+            "y": 470.0
+          },
+          "radius": 55.0,
+          "strength": 130.0,
+          "highlight": "7fd4e0"
+        },
+        {
+          "base": "a67c52",
+          "ring": "1.0,0.85,0.6",
+          "field": 160.0,
+          "center": {
+            "x": 560.0,
+            "y": 160.0
+          },
+          "radius": 48.0,
+          "strength": 500,
+          "highlight": "e0bb85"
+        },
+        {
+          "base": "7959a8",
+          "ring": "0.75,0.6,1.0",
+          "field": 430.0,
+          "center": {
+            "x": 950.0,
+            "y": 400.0
+          },
+          "radius": 150.0,
+          "strength": 640,
+          "highlight": "b795e0"
+        }
+      ],
+      "pigs": [
+        {
+          "planet": 2,
+          "angle": -170,
+          "lat": 0,
+          "radius": 20,
+          "hp": 1
+        },
+        {
+          "planet": 2,
+          "angle": -120,
+          "lat": 50,
+          "radius": 20,
+          "hp": 2
+        },
+        {
+          "planet": 1,
+          "angle": 90,
+          "lat": 0,
+          "radius": 18,
+          "hp": 1
+        },
+        {
+          "planet": 2,
+          "angle": 55,
+          "lat": 0,
+          "radius": 20,
+          "hp": 1
+        }
+      ],
+      "blocks": [
+        {
+          "planet": 2,
+          "angle": -184,
+          "material": "glass",
+          "size": {
+            "x": 14,
+            "y": 50
+          },
+          "axis": "radial",
+          "lift": 0
+        },
+        {
+          "planet": 2,
+          "angle": -156,
+          "material": "glass",
+          "size": {
+            "x": 14,
+            "y": 50
+          },
+          "axis": "radial",
+          "lift": 0
+        },
+        {
+          "planet": 2,
+          "angle": -170,
+          "material": "glass",
+          "size": {
+            "x": 106,
+            "y": 14
+          },
+          "axis": "tangent",
+          "lift": 46.5
+        },
+        {
+          "planet": 2,
+          "angle": 41,
+          "material": "wood",
+          "size": {
+            "x": 14,
+            "y": 50
+          },
+          "axis": "radial",
+          "lift": 0
+        },
+        {
+          "planet": 2,
+          "angle": 69,
+          "material": "wood",
+          "size": {
+            "x": 14,
+            "y": 50
+          },
+          "axis": "radial",
+          "lift": 0
+        },
+        {
+          "planet": 2,
+          "angle": 55,
+          "material": "wood",
+          "size": {
+            "x": 106,
+            "y": 14
+          },
+          "axis": "tangent",
+          "lift": 46.5
+        }
+      ],
+      "starThresholds": [
+        20000,
+        40000,
+        56000
+      ]
+    }
+  ],
+  "_design_notes": {
+    "angle_convention": "0°=行星朝向 +X（远离弹弓的背面）；±180°=朝向弹弓的近侧；-90°=行星顶部。球面法线 (cos lat·cos angle, sin lat, cos lat·sin angle)。",
+    "hut_geometry": "掩体三件套=两根立柱（radial，w14×h50，lift 0，angle=猪±Δ）+ 横梁屋顶（tangent）。几何推导：柱顶中心的径向投影=(r+50)·cos Δ，屋顶 lift = 50−(r+50)(1−cos Δ)+2.5。关键坑：柱顶面与屋顶面相差 Δ 角，柱顶外角比中心高出 7·sin Δ≈1.7px——lift 不加这 2~2.5px 余量，2D 求解器只会把屋顶温和抬起（无感），3D 求解器却会选切向去穿插把屋顶侧踢下柱顶（L4 塌顶的根因）。屋顶长度 L ≈ 2(r+50)·sin Δ + 14；按行星半径选 Δ：r150→14°、r140→14°、r135→14°、r125→16°。猪顶（r+42）与屋顶底面留 ≥4px。叠放（石板压木梁）：两者同 angle 同法线，lift 直接相加无需角隙修正。",
+    "design_pillars": "每关一个核心问题：L1 直射+弧线入门 / L2 背面绕行 / L3 穿缝+分裂双杀 / L4 卫星引力弹射 / L5 材质弱点（玻璃支柱）+塔塌压杀 / L6 综合考试。材质=难度旋钮（玻璃白给、木需实射、石需加速鸟或找弱点）；特殊鸟必须有专属用途（L3/L6 分裂齐射、L5 石墙加速鸟）；高纬猪只做裸置（掩体几何在球面上按 cos lat 缩放，不在高纬搭屋）。",
+    "star_economy": "maxScore=猪×5000+方块分值+残余鸟×(birds−1)×10000（后端按同公式预存校验）。starThresholds 三档按本关 maxScore 的 ~30%/60%/80% 推导；≤2 发通关另直接给三星。",
+    "reachability": "改关卡/改引力后必跑 tests/reachability_check_2d.gd 与 tests/reachability_check.gd：每只猪都必须存在几何可达且动量足够的直击弹道；tests/structure_check.gd 验证掩体开局静置不塌。"
+  }
+}

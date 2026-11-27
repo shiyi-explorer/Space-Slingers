@@ -1,0 +1,26 @@
+# Godot 编辑器缓存/导入数据（首次打开自动生成）
+.godot/
+
+# macOS 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Scala/sbt 构建产物（308MB，源码保留，运行时自动重建）
+backend/target/
+backend/project/target/
+
+# sbt / IDE 临时文件
+*.class
+*.log
+.idea/
+.vscode/
+.bloop/
+.metals/
+
+# Godot 导出产物
+export/
+builds/
+*.pck
+*.apk
+*.ipa
